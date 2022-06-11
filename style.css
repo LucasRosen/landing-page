@@ -35,13 +35,21 @@ button {
     
 }
 
+.dark-background {
+    background-color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    width: 60%;
 
-    padding: 0px 420px;
-    background-color: #1F2937;
+    margin-bottom: 100px;
 }
 
 .header-logo {
@@ -56,11 +64,12 @@ button {
 
 .hero {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
 
-    padding: 100px 420px;
-    background-color: #1F2937;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .hero h1 {
@@ -75,4 +84,5 @@ button {
 }
 
 .hero img {
+    
 }
