@@ -121,3 +121,33 @@ button {
     font-size: 18px;
     color: #7e7f81;
 }
+
+.quote-background {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 130px 560px;
+}
+
+.quote-text {
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0
+}
+
+.quote-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: auto;
+}
