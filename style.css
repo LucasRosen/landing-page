@@ -152,9 +152,32 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 100px 500px;
+  padding: 36px 36px;
+
+  border-radius: 6px;
+  background-color: var(--blue-color);
+}
+
+.signup-container h3 {
+  color: var(--hero-text-color);
+
+  margin: 0;
+}
+
+.signup-container p {
+  font-weight: 300;
+  color: var(--hero-secondary-color);
+
+  margin: 0;
+}
+
+.signup-container button {
+  border: 2px solid var(--hero-text-color);
 }
 
 footer {
+  background-color: #1F2937;
   display: flex;
   flex-direction: column;
   justify-content: center;
