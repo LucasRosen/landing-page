@@ -8,6 +8,10 @@
 
 body {
   font-family: Roboto, Georgia, "Times New Roman", Times, serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
@@ -26,4 +30,28 @@ h2 {
   font-size: 36px;
   font-weight: 900;
   color: var(--dark-color);
+}
+
+/* Header */
+.header {
+  background-color: var(--dark-color);
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--light-color);
+}
+
+.right-links {
+  font-size: 18px;
+  color: var(--grayish-color);
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
