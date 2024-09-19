@@ -97,6 +97,15 @@ button {
   text-wrap: wrap;
 }
 
+.hero-container p {
+  margin: 0;
+}
+
+.hero-container .signup-button {
+  border: 0;
+  margin-top: 8px;
+}
+
 .hero-section img {
   flex: 1;
   background-color: var(--grayish-color);
