@@ -37,6 +37,16 @@ h2 {
   color: var(--dark-color);
 }
 
+button {
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  border: 2px solid var(--light-color);
+  border-radius: 8px;
+
+  height: 36px;
+  width: 108px;
+}
+
 .sub-text {
   font-size: 18px;
   font-weight: 300;
@@ -150,4 +160,29 @@ h2 {
   text-align: end;
 
   margin: 0;
+}
+
+/* Signup Section */
+.signup-section {
+  background-color: var(--accent-color);
+  border-radius: 8px;
+
+  width: 900px;
+  height: 100px;
+  margin: 100px 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup-text h3,
+.signup-text p {
+  color: var(--light-color);
+
+  margin: 0;
+}
+
+.signup-text p {
+  font-weight: 300;
 }
