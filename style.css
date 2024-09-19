@@ -126,3 +126,28 @@ h2 {
 
   margin: 8px 0 0 0;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: var(--grayish-color);
+
+  width: 800px;
+  padding: 100px 100%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark-color);
+
+  margin: 0;
+}
+
+.quote-by {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: end;
+
+  margin: 0;
+}
