@@ -186,3 +186,12 @@ button {
 .signup-text p {
   font-weight: 300;
 }
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: var(--light-color);
+  background-color: #1f2937;
+
+  width: 100%;
+}
